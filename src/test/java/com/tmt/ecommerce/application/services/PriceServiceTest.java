@@ -7,6 +7,8 @@ import com.tmt.ecommerce.domain.models.PriceDto;
 import com.tmt.ecommerce.domain.ports.in.FindApplicablePriceUseCase;
 import java.time.LocalDateTime;
 import java.util.Optional;
+
+import com.tmt.ecommerce.domain.services.PriceService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

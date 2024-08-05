@@ -1,6 +1,6 @@
 package com.tmt.ecommerce.infrastructure.controllers;
 
-import com.tmt.ecommerce.application.services.PriceService;
+import com.tmt.ecommerce.domain.services.PriceService;
 import com.tmt.ecommerce.domain.models.ErrorMessage;
 import com.tmt.ecommerce.domain.models.PriceDto;
 import com.tmt.ecommerce.infrastructure.exceptions.PriceNotFoundException;

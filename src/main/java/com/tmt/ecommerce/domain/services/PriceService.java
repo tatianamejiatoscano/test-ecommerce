@@ -1,4 +1,4 @@
-package com.tmt.ecommerce.application.services;
+package com.tmt.ecommerce.domain.services;
 
 import com.tmt.ecommerce.domain.models.PriceDto;
 import com.tmt.ecommerce.domain.ports.in.FindApplicablePriceUseCase;

@@ -1,6 +1,6 @@
 package com.tmt.ecommerce.infrastructure.config;
 
-import com.tmt.ecommerce.application.services.PriceService;
+import com.tmt.ecommerce.domain.services.PriceService;
 import com.tmt.ecommerce.application.usecases.FindApplicablePriceUseCaseImpl;
 import com.tmt.ecommerce.domain.ports.in.FindApplicablePriceUseCase;
 import com.tmt.ecommerce.domain.ports.out.PriceRepositoryPort;

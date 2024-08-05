@@ -23,19 +23,19 @@ src/
 │   │       └── tmt/
 │   │           └── ecommerce/
 │   │               ├── application/
-│   │               │   ├── services/
-│   │               │   │   └── PriceService.java
 │   │               │   └── usecases/
 │   │               │       └── FindApplicablePriceUseCaseImpl.java
 │   │               ├── domain/
 │   │               │   ├── models/
 │   │               │   │   ├── ErrorMessage.java
 │   │               │   │   └── PriceDto.java
-│   │               │   └── ports/
-│   │               │       ├── in/
-│   │               │       │   └── FindApplicablePriceUseCase.java
-│   │               │       └── out/
-│   │               │           └── PriceRepositoryPort.java
+│   │               │   ├── ports/
+│   │               │   │   ├── in/
+│   │               │   │   │   └── FindApplicablePriceUseCase.java
+│   │               │   │   └── out/
+│   │               │   │       └── PriceRepositoryPort.java
+│   │               │   └── services/
+│   │               │       └── PriceService.java
 │   │               └── infrastructure/
 │   │                   ├── adapters/
 │   │                   │   └── PriceRepositoryAdapter.java
