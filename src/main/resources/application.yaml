@@ -1,0 +1,32 @@
+server:
+  port: '8080'
+
+spring:
+  application:
+    name: test-ecommerce
+  datasource:
+    driverClassName: org.h2.Driver
+    password: password
+    username: sa
+    url: jdbc:h2:mem:dev_ecommerce
+  h2:
+    console:
+      path: /h2-console
+      enabled: 'true'
+  jpa:
+    defer-datasource-initialization: 'true'
+    hibernate:
+      ddl-auto: create
+    show-sql: 'true'
+    database-platform: org.hibernate.dialect.H2Dialect
+    properties:
+      hibernate:
+        format_sql: 'true'
+
+logging:
+  level:
+    org:
+      hibernate: ERROR
+      springframework:
+        web: DEBUG
+    root: WARN
